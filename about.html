@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StitchMaster - About Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .about-section {
+            padding: 5rem 0;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Stitch<span class="highlight">Master</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero" style="min-height: 40vh; justify-content: center; text-align: center;">
+            <div class="hero-content" style="padding: 0;">
+                <h1>The Story Behind Each Stitch</h1>
+                <p>Passion, Precision, and Pattern.</p>
+            </div>
+        </div>
+
+        <section class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>Our Philosophy</h2>
+                        <p>At StitchMaster, we believe that embroidery is more than just thread on fabric; it's a form
+                            of storytelling. Founded in 2020, our studio has been dedicated to digitizing art into
+                            stitchable masterpieces.</p>
+                        <p>We combine traditional hand-embroidery techniques with modern digitization software to ensure
+                            every curve and corner stitches out perfectly on your machine.</p>
+                        <p>Whether you are a home hobbyist or a commercial embroiderer, our designs are tested and
+                            optimized for quality.</p>
+                        <div style="margin-top: 2rem;">
+                            <img src="https://images.unsplash.com/photo-1543509930-4e42777b7897?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                alt="Threads" style="border-radius: 8px; box-shadow: var(--box-shadow);">
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1456743625079-86a97ff8bc86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Workspace"
+                            style="border-radius: 8px; box-shadow: var(--box-shadow); width: 100%; height: 600px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team" style="padding: 5rem 0; background-color: var(--light-bg); text-align: center;">
+            <div class="container">
+                <h2>Meet the Creators</h2>
+                <div class="gallery-grid" style="margin-top: 3rem;">
+                    <div class="team-member"
+                        style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--box-shadow);">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                            alt="Founder"
+                            style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.5rem;">
+                        <h3>Sarah Jenkins</h3>
+                        <p class="role" style="color: var(--accent-color); font-weight: 700;">Lead Digitizer</p>
+                        <p>With 15 years of experience in textile design.</p>
+                    </div>
+                    <div class="team-member"
+                        style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--box-shadow);">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                            alt="Designer"
+                            style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.5rem;">
+                        <h3>Michael Ross</h3>
+                        <p class="role" style="color: var(--accent-color); font-weight: 700;">Art Director</p>
+                        <p>Specializes in modern geometric patterns.</p>
+                    </div>
+                    <div class="team-member"
+                        style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--box-shadow);">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
+                            alt="Support"
+                            style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.5rem;">
+                        <h3>Emma Clark</h3>
+                        <p class="role" style="color: var(--accent-color); font-weight: 700;">Customer Support</p>
+                        <p>Ensuring your stitching experience is smooth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-col">
+                <h3>StitchMaster</h3>
+                <p>Premium embroidery designs for the modern creator.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 StitchMaster Designs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
